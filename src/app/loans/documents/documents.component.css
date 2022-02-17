@@ -1,0 +1,19 @@
+.para{
+    text-align: left;
+font: normal normal normal 16px/24px Proxima Nova;
+letter-spacing: 0px;
+color: #2A2A2A;
+opacity: 1;
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li p::before {
+    content: "\2022";
+    color: blue;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }

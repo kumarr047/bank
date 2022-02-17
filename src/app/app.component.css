@@ -1,0 +1,96 @@
+image {
+    top: 6px;
+    left: 300px;
+    width: 129px;
+    height: 78px;
+    /* background: transparent url('img/Mask Group 71.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    font: normal normal 600 16px/58px Proxima Nova;
+  }
+  
+  .admin{
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 90px;
+    background: #F9F9F9 ;
+  }
+  
+  
+  ul li a {
+    text-decoration: none;
+  
+    font-size: 16px;
+  
+  }
+  /* ul{
+    display: inline;
+  } */
+  ul a {
+    text-decoration: none;
+  }
+  .icon{
+    padding-left: 60px;
+  }
+  /* .person{
+  text-decoration: underline;
+} */
+  .over{
+    padding-top: 0%;
+    padding-left: 180px;
+  }
+.space{
+  padding-left:4px;
+  
+}
+  /* .business {
+    top: 10px;
+    left: 461px;
+    width: 63px;
+    height: 18px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 16px/19px Proxima Nova;
+    letter-spacing: 0px;
+    color: #373737;
+    opacity: 1
+  }
+  
+  .nri {
+    top: 10px;
+    left: 556px;
+    width: 25px;
+    height: 18px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 16px/19px Proxima Nova;
+    letter-spacing: 0px;
+    color: #373737;
+    opacity: 1;
+  }
+  
+  .rural {
+    
+    width: 36px;
+    height: 18px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 16px/19px Proxima Nova;
+    letter-spacing: 0px;
+    color: #373737;
+    opacity: 1;
+  } */
+  .pictures{
+    width: 18px;
+    height: 30px;
+   
+  }
+  

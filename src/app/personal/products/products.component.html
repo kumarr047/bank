@@ -1,0 +1,57 @@
+<h3 class="mt-5 text-center">Our <span class="text-warning"> Products</span></h3>
+<div class=" text-center">
+    <div class="col-md-6 col-lg-4 col-sm-12 d-inline-flex justify-content-center mt-5" *ngFor="let text of multipleText" >
+      <div class=" boxone" >
+        <div>
+          <img [src]="text.img" class="card-img-top" alt="..." style="width: 60px;">
+          <h4 class="pt-3">
+            {{ text.headone }}
+          </h4>
+          <p class="card-text pt-2 param">
+            {{ text.textone }}
+          </p>
+
+
+        </div>
+    </div>
+      
+
+    <!-- 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 clo-sm-12 mt-5 col">
+            <div class=" boxone" *ngFor="let text of multipleTexts">
+              <div>
+                <img [src]="text.img" class="card-img-top" alt="..." style="width: 60px;">
+                <h4>
+                  {{ text.headone }}
+                </h4>
+                <p
+                  class="card-text" 
+                >
+                  {{ text.textone }}
+            </p>
+             
+            
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 clo-sm-12 mt-5 col">
+                <div class=" boxone" *ngFor="let text of multipleTextes">
+                  <div>
+                    <img [src]="text.img" class="card-img-top" alt="..."style="width: 60px;" >
+                    <h4>
+                      {{ text.headone }}
+                    </h4>
+                    <p
+                      class="card-text" 
+                    >
+                      {{ text.textone }}
+                </p>
+                 
+                
+                  </div>
+                </div>
+              </div> -->

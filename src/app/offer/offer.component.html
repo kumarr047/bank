@@ -1,0 +1,23 @@
+<h2 class="mt-5 text-center">Offer <span class="text-warning">Zone</span></h2>
+
+       
+              <div class=" mt-5 col-md-4  p-5 d-inline-flex"  *ngFor="let text of multipleText">
+                <div class="card ">
+                  <div class="card-body" [ngStyle]="{ 'background-color': text.color }" >
+                    <img [src]="text.img" class="card-img-top" alt="..." style="width: 30px;">
+                    <p
+                      class="card-title" [ngStyle]="{ 'color': 'white' }"
+                    >
+                      {{ text.headone }}
+                  </p>
+                    <h5
+                      class="card-text" [ngStyle]="{ 'color': 'white' }"
+                    >
+                      {{ text.textone }}
+                </h5>
+                 
+                <p class="card-text " [ngStyle]="{ 'color': 'white' }">{{text.more}}
+                 </p>
+                  </div>
+                
+       

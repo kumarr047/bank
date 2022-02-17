@@ -1,0 +1,29 @@
+.image{
+    background-repeat: no-repeat;
+    background-size: contain;
+     
+      width:auto;
+    background-image:url("/assets/tree.jpg");
+    background-position:1% 100%;
+  }
+
+  .box{
+    width: 80%;
+    height: 100px;
+    background-color: white;
+    margin-left: 100px;
+    
+  }
+  .paras{
+      padding-left: 100px;
+  }
+  .para{
+      padding-left: 90px;
+  }
+  .head{
+      margin-left: 80px;
+      opacity: 1;
+  }
+  .crop{
+      margin-left: 100px;
+  }

@@ -1,0 +1,54 @@
+span{
+    color: red;
+}
+.head{
+
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-32)/58px var(--unnamed-font-family-proxima-nova);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-2a2a2a);
+    text-align: left;
+font: normal normal 600 32px/58px Proxima Nova;
+letter-spacing: 0px;
+color: #2A2A2A;
+opacity: 0.8;
+}
+
+.para{
+    width: 209px;
+height: 16px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal normal 14px/17px Proxima Nova;
+letter-spacing: 0px;
+opacity: 1;
+}
+
+.detail{
+    width: 285px;
+height: 18px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-16)/58px var(--unnamed-font-family-proxima-nova);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-2a2a2a);
+text-align: left;
+font: normal normal 600 16px/58px Proxima Nova;
+letter-spacing: 0px;
+color: #2A2A2A;
+opacity: 1;
+}
+.reference{
+    width: 200px;
+height: 16px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal 600 14px/17px Proxima Nova;
+letter-spacing: 0px;
+opacity: 0.9;
+}
+.home{
+    text-decoration: underline;
+font: normal normal normal 14px/24px Proxima Nova;
+letter-spacing: 0px;
+opacity: 1;
+}

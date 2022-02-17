@@ -1,0 +1,36 @@
+<!-- <div class="row mx-2 bg-warning">
+    <div class="col-lg-4 col-md-4 col-sm-5 col-xs-4" *ngFor="let x card-item">
+      <div class="card">
+          <div class="card-body">
+              <img src=[""]>
+            <h5 class="card-title">{{x.image}}</h5>
+            <p class="card-text">{{x.contenu}}</p>
+            <p class="card-subtitle">{{x.montant}}</p>
+          </div>
+        </div>
+   </div> -->
+
+<form  >
+  <p class="pt-3 "><span class="text-warning home">Home</span><img class="px-1" src="../assets/left.jpg">Resume Application</p>
+  <h3 class="head">Resume Application</h3>
+  <p class="para "> Please, <span>*</span>fill the mandatory details</p>
+  <h6 class=" detail">Enter Details</h6>
+  <div class="row">
+
+    <div class="col pt-4">
+      <label for="reference" class="reference">Application Reference Number<span>*</span></label>
+      <input type="text" class="form-control" required>
+    </div>
+    <div class="col pt-4">
+      
+      <div class="form-outline flex-fill mb-0">
+        <label for="mobile" class="reference">Mobile Number<span>*</span></label>
+        <input type="tel" (keypress)="OnlyNumberAllowed($event)" maxlength="10" id="number" name="number"
+          class="form-control" required  >
+      </div></div>
+
+    </div>
+    <div>
+      <button class="btn btn-warning mt-3 text-light nav-btn-cus" (click)="continue()">Continue</button>
+    </div>
+</form>

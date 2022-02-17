@@ -1,0 +1,60 @@
+<form  >
+  <p class="pt-3 "><span class="text-warning home">Home</span><img class="px-1" src="../assets/left.jpg">Resume Application</p>
+    <h2 class="head">Resume Application</h2>
+    <p class="para pt-3"> Please, <span>*</span>fill the mandatory details</p>
+    <h6 class="pt-1 detail">Enter Details</h6>
+    <div class="row">
+  
+      <div class="col pt-5">
+        <label for="reference" class="reference">Application Reference Number<span>*</span></label>
+        <input type="text" class="form-control" required>
+      </div>
+      <div class="col pt-5">
+        
+        <div class="form-outline flex-fill mb-0">
+          <label for="mobile" class="reference">Mobile Number<span>*</span></label>
+          <input type="tel" (keypress)="OnlyNumberAllowed($event)" maxlength="10" id="number" name="number"
+            class="form-control" required  >
+            <p class="pt-3">A 6 digit OTP has been send to above mobile number.</p>
+          <!-- <span class="help-block" *ngIf="!number.valid && number.touched" style="color: red ;">Please Enter Your Valid
+            mobile number!</span> -->
+        </div></div>
+       
+  
+      </div>
+
+<div class=" mt-1 form-outline flex-fill">
+  <!-- <label for="password" class="reference">Enter Mobile OTP<span>*</span></label><br>
+  <input type="password" class="box p-3 mx-1 pwd" value="" minlength="1" id="password" name="password"/>
+  <input type="password" class="box p-3 mx-1" minlength="1"/>
+  <input type="password" class="box p-3 mx-1" minlength="1">
+  <input type="password" class="box p-3 mx-1" minlength="1">
+  <input type="password" class="box p-3 mx-1" minlength="1">
+  <input type="password" class="box p-3 mx-1" minlength="1">
+  <img src="../assets/icon.jpg"> -->
+
+  <label for="password" class="reference">Enter Mobile OTP<span>*</span></label><br>
+  <input id="codeBox1" type="password" class="box  " maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)"/>
+  <input id="codeBox2" type="password" class="box mx-2 "  maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)"/>
+  <input id="codeBox3" type="password" class="box mx-2" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)"/>
+  <input id="codeBox4" type="password" class="box mx-2" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)"/>
+  <input id="codeBox5" type="password" class="box mx-2" maxlength="1" onkeyup="onKeyUpEvent(5, event)" onfocus="onFocusEvent(5)"/>
+  <input id="codeBox6" type="password" class="box mx-2 " maxlength="1" onkeyup="onKeyUpEvent(6, event)" onfocus="onFocusEvent(6)"/>
+  <img src="../assets/icon.jpg">
+</div>
+<p class="otp pt-3 "><span class="text-warning ">Wait for 00:24 In</span> Resend OTP</p>
+
+
+<!-- <div class="mb-6 text-center">
+  <div id="otp" class="flex justify-center">
+    <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="text" id="first" maxlength="1" />
+    <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="text" id="second" maxlength="1" />
+    <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="text" id="third" maxlength="1" />
+    <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="text" id="fourth" maxlength="1" />
+    <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="text" id="fifth" maxlength="1" />
+    <input class="m-2 text-center form-control form-control-solid rounded focus:border-blue-400 focus:shadow-outline" type="text" id="sixth" maxlength="1" />
+  </div>
+</div> -->
+     
+      
+  </form>

@@ -1,0 +1,43 @@
+<p class="pt-3 "><span class="text-warning home">Home</span><img class="px-1" src="../assets/left.jpg"><span class="text-warning home">Loans</span><img class="px-1" src="../assets/left.jpg">Personal Loan</p>
+<div class="container-fluid">
+    <div class="row">
+       
+        <div class="col-lg-6 col-md-12 col-sm-12 picture mt-3">
+            <img src="../assets/money.png"  alt="logo" loading="lazy">
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <div >
+                <button class="btn btn-warning mt-3 mx-3 "></button>
+            </div>
+           <h2 class="pt-3 mx-3">{{head}}</h2>
+           <p class="pt-3 mx-3 heads">{{para}}</p>
+           <div>
+               <button class="btn btn-warning mt-5 mx-3 text-light nav-btn-cus">Apply Now</button>
+               <button  class="btn btn-outline-warning mt-5 mx-3">Track Status</button>
+           </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-5">
+<nav class="navbar navbar-light bg-light col-lg-12 col-md-12 col-sm-12">
+    <a class="navbar-brand texts" routerLink="emi"><span class="text-warning border-bottom border-warning">EMI Calculator</span> </a>
+    <a class="navbar-brand texts" routerLink="eligibilitycalculator">Eligibility Calculator</a>
+    <a class="navbar-brand texts" routerLink="/loans/eligibility">Eligibility </a>
+    <a class="navbar-brand texts" routerLink="/loans/features">Features</a>
+    <a class="navbar-brand texts" routerLink="/loans/benfits">Benefits</a>
+    <a class="navbar-brand texts" routerLink="/loans/documents">Documentation</a>
+    <a class="navbar-brand texts" routerLink="/loans/interest">Interest Rates&Charges</a>
+    <a class="navbar-brand texts" routerLink="/loans/question">FAQ's</a>
+    <div>
+    <button class="btn btn-warning  mx-3 text-light nav-btn-cus ">Apply Now</button>
+</div>
+  </nav>
+
+</div>    
+
+<div class="container-fluid">
+    <router-outlet></router-outlet>
+</div>
+

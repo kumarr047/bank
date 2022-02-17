@@ -1,0 +1,11 @@
+.para{
+    opacity: 1;
+font-size: 18px;
+font: normal normal 20px/40px Proxima Nova;
+}
+.boxs{
+    background-color: blue;
+  left: 50%;
+  opacity: 0.8;
+    
+}
