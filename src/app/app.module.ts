@@ -12,7 +12,7 @@ import { ProductComponent } from './product/product.component';
 // import { NgChartsModule } from 'ng2-charts';
 import { ReactiveFormsModule } from '@angular/forms';
 // import { HighchartsChartModule } from 'highcharts-angular';
-import { NgChartsModule } from 'ng2-charts';
+// import { NgChartsModule } from 'ng2-charts';
 // For MDB Angular Free
  // import { ChartsModule, WavesModule } from 'angular-bootstrap-md'
  
@@ -29,7 +29,7 @@ import { NgChartsModule } from 'ng2-charts';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    NgChartsModule,
+    // NgChartsModule,
   ReactiveFormsModule
   ],
   providers: [],

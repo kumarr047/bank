@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ChartOptions,ChartDataset,ChartType} from 'chart.js';
-import * as Highcharts from 'highcharts';
+// import { ChartOptions,ChartDataset,ChartType} from 'chart.js';
+// import * as Highcharts from 'highcharts';
 
 @Component({
   selector: 'app-emi',
@@ -100,7 +100,7 @@ export class EmiComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    Highcharts.chart('container', this.options);
+    // Highcharts.chart('container', this.options);
   }
 
 }
